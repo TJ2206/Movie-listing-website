@@ -64,7 +64,7 @@ form.addEventListener('submit', async (event) => {
 
 
 
-const apiKey = '350b0fd2a429854b79388af650ef0285';
+const apiKey = '1415004a433df52a38118471266ac48d';
 
 fetch(`https://api.themoviedb.org/3/movie/popular?api_key=${apiKey}`)
   .then(response => response.json())
