@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Movie App</title>
+    <link rel="stylesheet" href="styles.css">
+    <script src="app.js" defer></script>
+</head>
+<body>
+    <header>
+        <a href="#"><h1><img src="/images/swc.png" alt="Logo" class="title-icon">Movies</h1></a>
+        <form class="search-btn">
+            <input
+                type="text"
+                id="search"
+                placeholder="Quick Search"
+                class="search"
+            />
+            <button type="submit">SUBMIT</button> 
+        </form>
+    </header>
+
+    <main id="container">
+        <div class="sidebar">
+            <form id="sidebar-form">
+                <input
+                    type="text"
+                    placeholder="Search Results"
+                    class="search"
+                />
+            </form>
+            <ul>
+                <li>All-team</li>
+                <li>Core</li>
+                <li>Mentors</li>
+                <li>Developers</li>
+                <li>Designers</li>
+            </ul>
+
+            <button class="add-button">+ADD</button>
+        </div>
+        <div class="main-content movieContainer"></div> 
+        <div class="searchResultContainer"> 
+           
+            <div class="search-result"></div> 
+        </div>
+    </main>
+</body>
+</html>
